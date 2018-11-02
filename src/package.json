@@ -14,7 +14,8 @@
     "keywords": [
         "ASP.NET Core",
         "C#",
-        "Razor"
+        "Razor",
+        "Blazor"
     ],
     "repository": {
         "type": "git",
