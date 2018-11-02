@@ -3,7 +3,7 @@
     "displayName": "Blazor Snippets",
     "description": "Blazor Snippets for VS Code",
     "icon": "images/logo.png",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "ScottSauber",
     "engines": {
         "vscode": "^1.28.0"
