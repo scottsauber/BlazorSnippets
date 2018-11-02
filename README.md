@@ -43,7 +43,7 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 Type part of a snippet, press `tab` and the snippet unfolds.  Continue hitting tab for certan snippets that let you jump to the next cursor location.
 
 ## Install
-To install - go here and click Download: https://marketplace.visualstudio.com/items?itemName=ScottSauber.blazorsnippets
+To install - go here and click Install: https://marketplace.visualstudio.com/items?itemName=ScottSauber.blazorsnippets
 
 ### For more information
 
