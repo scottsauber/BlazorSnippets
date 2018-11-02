@@ -34,6 +34,18 @@
             {
                 "language": "aspnetcorerazor",
                 "path": "./snippets/components.json"
+            },
+            {
+                "language": "razor",
+                "path": "./snippets/razor.json"
+            },
+            {
+                "language": "razor",
+                "path": "./snippets/events.json"
+            },
+            {
+                "language": "razor",
+                "path": "./snippets/components.json"
             }
         ]
     }
