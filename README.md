@@ -1,10 +1,16 @@
 # Blazor Snippets for VS Code
 Blazor Snippets for VS Code provides common snippets for writing Blazor apps in VS Code and lets you spend less time writing boilerplate and more time writing your app.
 
-## Features
-- Note All Snippets start with a "b" prefix for discoverability purposes.
+### Note: All Snippets start with a "b" prefix for discoverability purposes.
 
-![Snippets used together](images/Demo.gif)
+## Features
+
+- ### Using `bc` to create a blank Blazor Component, `bpara` to create a parameter, `boi` to create OnInitAsync, and `binjhttp` to inject an HttpClient.
+
+    ![Snippets used together](images/Demo.gif)
+
+- ### Using `bchttp` to scaffold out a Blazor Component with an HttpClient call.
+    ![Snippets used together](images/DemoBCHttp.gif)
 
 
 ## Scaffold Blazor Component Snippets
