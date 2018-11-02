@@ -1,0 +1,39 @@
+{
+    "functions" :{
+        "prefix": "bfunc",
+        "description": "Create a functions block.",
+        "body": ["@functions {",
+                 "    $1",
+                 "}"]
+    },
+    "parameter" :{
+        "prefix": "bpara",
+        "description": "Create a Parameter.",
+        "body": ["[Parameter] ${1:string} ${2:Name} { get; set; }"]
+    },
+    "page" :{
+        "prefix": "bpg",
+        "description": "Create a @page directive.",
+        "body": ["@page"]
+    },
+    "PageWithRoute" :{
+        "prefix": "bpgr",
+        "description": "Create a @page with the route directive.",
+        "body": ["@page \"/$1\" "]
+    },
+    "inject" :{
+        "prefix": "binj",
+        "description": "Create an @inject directive.",
+        "body": ["@inject"]
+    },
+    "injectHttp" :{
+        "prefix": "binjhttp",
+        "description": "Create an @inject directive with HttpClient.",
+        "body": ["@inject HttpClient Http"]
+    },
+    "inherits" :{
+        "prefix": "binh",
+        "description": "Create an @inherits directive.",
+        "body": ["@inherits $1"]
+    }
+}

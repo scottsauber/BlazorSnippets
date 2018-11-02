@@ -1,0 +1,41 @@
+{
+    "BlankBlazorComponent" :{
+        "prefix": "bc",
+        "description": "Create a blank Blazor component.",
+        "body": ["@page",
+                  "",
+                  "<h1>Title</h1>",    
+                  "",    
+                  "@functions {",
+                  "    $1",
+                  "}"]
+    },
+    "BlazorHTTPComponent" :{
+        "prefix": "bchttp",
+        "description": "Create a Blazor component with an HTTP call",
+        "body": ["@page",
+                 "@inject HttpClient Http",
+                 "",
+                 "<h1>@$2</h1>",    
+                 "",
+                 "@functions {",
+                 "    ${1:string} ${2:Name} { get; set; }",
+                 "",
+                 "    protected override async Task OnInitAsync()",
+                 "    {",
+                 "        ${2:Name} = await Http.GetJsonAsync<${1:string}>(\"api/$3\");",
+                 "    }",
+                 "}"]
+    },
+    "BlazorChildComponent" :{
+        "prefix": "bcchild",
+        "description": "Create a child Blazor component that accepts a parameter",
+        "body": ["@page",
+                 "",
+                 "<h1>@$2</h1>",    
+                 "",
+                 "@functions {",
+                 "    [Parameter] ${1:string} ${2:Name} { get; set; }",
+                 "}"]
+    }
+}

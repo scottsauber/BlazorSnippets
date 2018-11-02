@@ -1,0 +1,39 @@
+{
+    "name": "blazorsnippets",
+    "displayName": "Blazor Snippets",
+    "description": "Blazor Snippets for VS Code",
+    "icon": "images/logo.png",
+    "version": "0.1.0",
+    "publisher": "ScottSauber",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "ASP.NET Core",
+        "C#",
+        "Razor"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/scottsauber/BlazorSnippets"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "aspnetcorerazor",
+                "path": "./snippets/razor.json"
+            },
+            {
+                "language": "aspnetcorerazor",
+                "path": "./snippets/events.json"
+            },
+            {
+                "language": "aspnetcorerazor",
+                "path": "./snippets/components.json"
+            }
+        ]
+    }
+}

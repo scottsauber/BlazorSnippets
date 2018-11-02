@@ -1,0 +1,58 @@
+{
+    "OnInitAsync" :{
+        "prefix": "boi",
+        "description": "Create the OnInitAsync event.",
+        "body": ["protected override async Task OnInitAsync()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    },
+    "OnInit" :{
+        "prefix": "bois",
+        "description": "Create the OnInit event.",
+        "body": ["protected override void OnInit()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    },
+    "OnAfterRenderAsync" :{
+        "prefix": "boar",
+        "description": "Create the OnAfterRenderAsync event.",
+        "body": ["protected override async Task OnAfterRenderAsync()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    },
+    "OnAfterRender" :{
+        "prefix": "boars",
+        "description": "Create the OnAfterRender event.",
+        "body": ["protected override void OnAfterRender()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    },
+    "OnParametersSetAsync" :{
+        "prefix": "bops",
+        "description": "Create the OnParametersSetAsync event.",
+        "body": ["protected override async Task OnParametersSetAsync()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    },
+    "OnParametersSet" :{
+        "prefix": "bopss",
+        "description": "Create the OnParametersSet event.",
+        "body": ["protected override void OnParametersSet()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    },
+    "ShouldRender" :{
+        "prefix": "bsr",
+        "description": "Create the ShouldRender event.",
+        "body": ["protected override bool ShouldRender()",
+                  "{",
+                  "    $1",    
+                  "}"]
+    }
+}
