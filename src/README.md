@@ -2,9 +2,9 @@
 Blazor Snippets for VS Code provides common snippets for writing Blazor apps in VS Code and lets you spend less time writing boilerplate and more time writing your app.
 
 ## Features
-- Note All Snippets start with a "bl" prefix for discoverability purposes.
+- Note All Snippets start with a "b" prefix for discoverability purposes.
 
-![Snippets used together](images/bchttp and param.gif)
+![Snippets used together](images/Demo.gif)
 
 
 ## Scaffold Blazor Component Snippets
