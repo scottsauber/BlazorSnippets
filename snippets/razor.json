@@ -35,5 +35,14 @@
         "prefix": "binh",
         "description": "Create an @inherits directive.",
         "body": ["@inherits $1"]
+    },
+    "foreach" :{
+        "prefix": "bforeach",
+        "description": "Create a foreach loop.",
+        "body": ["@foreach (var ${1:item} in ${2:items})",
+                 "{",
+                 "    $3",
+                 "}"
+        ]
     }
 }

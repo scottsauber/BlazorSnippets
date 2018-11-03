@@ -32,6 +32,7 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 | `binj`                       | Creates `@inject` directive.                                 |
 | `binjhttp`                   | Creates `@inject HttpClient Http`.                           |
 | `binh`                       | Creates `@inherits` directive.                               |
+| `bforeach`                   | Creates `@foreach` directive.                                |
 
 
 ## Scaffold Blazor Event Snippets
