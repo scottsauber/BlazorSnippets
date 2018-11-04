@@ -44,5 +44,14 @@
                  "    $3",
                  "}"
         ]
+    },
+    "for" :{
+        "prefix": "bfor",
+        "description": "Create a foreach loop.",
+        "body": ["@for (int ${1:index} = 0; index < ${2:length}; index++)",
+                 "{",
+                 "    $3",
+                 "}"
+        ]
     }
 }
