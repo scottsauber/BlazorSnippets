@@ -53,5 +53,14 @@
                  "    $3",
                  "}"
         ]
+    },
+    "if" :{
+        "prefix": "bif",
+        "description": "Create a @if statement.",
+        "body": ["@if (${1:true})",
+                 "{",
+                 "    $2",
+                 "}"
+        ]
     }
 }

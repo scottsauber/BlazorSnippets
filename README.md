@@ -34,6 +34,7 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 | `binh`                       | Creates `@inherits` directive.                               |
 | `bforeach`                   | Creates `@foreach` directive.                                |
 | `bfor`                       | Creates `@for` directive.                                    |
+| `bif`                        | Creates `@if` directive.                                     |
 
 
 ## Scaffold Blazor Event Snippets
