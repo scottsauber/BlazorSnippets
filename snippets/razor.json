@@ -62,5 +62,18 @@
                  "    $2",
                  "}"
         ]
+    },
+    "ifelse" :{
+        "prefix": "bife",
+        "description": "Create a @if and else statement.",
+        "body": ["@if (${1:true})",
+                 "{",
+                 "    $2",
+                 "}",
+                 "else",
+                 "{",
+                 "    $3",
+                 "}"
+        ]
     }
 }
