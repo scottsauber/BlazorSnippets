@@ -1,4 +1,7 @@
 # Change Log
+
+0.4.0 - 11/16/2018 - Added support for <CascadingValue> component via `bcv`.
+
 0.3.2 - 11/7/2018 - Added @if @else snippet via `bife`.
 
 0.3.1 - 11/5/2018 - Added @if snippet via `bif`.

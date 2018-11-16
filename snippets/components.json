@@ -37,5 +37,13 @@
                  "@functions {",
                  "    [Parameter] ${1:string} ${2:Name} { get; set; }",
                  "}"]
+    },
+    "BlazorCascadingValueComponent" :{
+        "prefix": "bcv",
+        "description": "Create a Blazor CascadingValue component.",
+        "body": ["<CascadingValue Value=\"@$1\">",
+                 "    <${2:ChildComponent} $3/>",
+                 "</CascadingValue>"
+        ]
     }
 }
