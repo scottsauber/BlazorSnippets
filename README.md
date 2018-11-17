@@ -21,7 +21,7 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 | `bc`      | Create a blank Blazor Component.                          |
 | `bchttp`  | Create a Blazor Component with an HTTP call.              |
 | `bcchild` | Create a Blazor Child Component that accepts a parameter. |
-| `bcv`     | Create a Blazor <CascadingValue> Component                |
+| `bccv`    | Create a Blazor <CascadingValue> Component                |
 
 ## Blazor Razor Snippets
 

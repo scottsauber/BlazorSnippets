@@ -1,5 +1,7 @@
 # Change Log
 
+0.4.0 - 11/16/2018 - Changed CascadingValue component to be `bccv` for consistency with other Blazor Component snippets that start with bc + cv for cascading value.
+
 0.4.0 - 11/16/2018 - Added support for <CascadingValue> component via `bcv`.
 
 0.3.2 - 11/7/2018 - Added @if @else snippet via `bife`.

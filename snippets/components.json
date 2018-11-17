@@ -39,7 +39,7 @@
                  "}"]
     },
     "BlazorCascadingValueComponent" :{
-        "prefix": "bcv",
+        "prefix": "bccv",
         "description": "Create a Blazor CascadingValue component.",
         "body": ["<CascadingValue Value=\"@$1\">",
                  "    <${2:ChildComponent} $3/>",
