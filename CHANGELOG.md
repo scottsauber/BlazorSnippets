@@ -1,6 +1,8 @@
 # Change Log
 
-0.4.0 - 11/16/2018 - Changed CascadingValue component to be `bccv` for consistency with other Blazor Component snippets that start with bc + cv for cascading value.
+0.4.2 - 11/17/2018 - Added support for [CascadingParameter] via `bcpara`
+
+0.4.1 - 11/16/2018 - Changed CascadingValue component to be `bccv` for consistency with other Blazor Component snippets that start with bc + cv for cascading value.
 
 0.4.0 - 11/16/2018 - Added support for <CascadingValue> component via `bcv`.
 

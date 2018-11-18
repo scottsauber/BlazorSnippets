@@ -25,19 +25,20 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 
 ## Blazor Razor Snippets
 
-| Snippet    | Purpose                                          |
-| ---------- | ------------------------------------------------ |
-| `bfunc`    | Create a `@functions` block.                     |
-| `bpara`    | Creates `[Parameter] string Name { get; set; }`. |
-| `bpg`      | Creates `@page` directive.                       |
-| `bpgr`     | Creates `@page "/"` with a route.                |
-| `binj`     | Creates `@inject` directive.                     |
-| `binjhttp` | Creates `@inject HttpClient Http`.               |
-| `binh`     | Creates `@inherits` directive.                   |
-| `bforeach` | Creates `@foreach` directive.                    |
-| `bfor`     | Creates `@for` directive.                        |
-| `bif`      | Creates `@if` directive.                         |
-| `bife`     | Creates `@if` `@else` directive.                 |
+| Snippet    | Purpose                                                   |
+| ---------- | --------------------------------------------------------- |
+| `bfunc`    | Create a `@functions` block.                              |
+| `bpara`    | Creates `[Parameter] string Name { get; set; }`.          |
+| `bcpara`   | Creates `[CascadingParameter] string Name { get; set; }`. |
+| `bpg`      | Creates `@page` directive.                                |
+| `bpgr`     | Creates `@page "/"` with a route.                         |
+| `binj`     | Creates `@inject` directive.                              |
+| `binjhttp` | Creates `@inject HttpClient Http`.                        |
+| `binh`     | Creates `@inherits` directive.                            |
+| `bforeach` | Creates `@foreach` directive.                             |
+| `bfor`     | Creates `@for` directive.                                 |
+| `bif`      | Creates `@if` directive.                                  |
+| `bife`     | Creates `@if` `@else` directive.                          |
 
 ## Blazor Event Snippets
 

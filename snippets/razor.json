@@ -11,6 +11,11 @@
         "description": "Create a Parameter.",
         "body": ["[Parameter] ${1:string} ${2:Name} { get; set; }"]
     },
+    "cascadingparameter" :{
+        "prefix": "bcpara",
+        "description": "Create a Cascading Parameter.",
+        "body": ["[CascadingParameter] ${1:string} ${2:Name} { get; set; }"]
+    },
     "page" :{
         "prefix": "bpg",
         "description": "Create a @page directive.",
