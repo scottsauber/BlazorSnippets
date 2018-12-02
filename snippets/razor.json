@@ -80,5 +80,10 @@
                  "    $3",
                  "}"
         ]
+    },
+    "BlazorGetJsonAsync" :{
+        "prefix": "bgja",
+        "description": "GetJsonAsync",
+        "body": ["await ${1:Http}.GetJsonAsync<${2:string}>(\"${3:api/}\");"]
     }
 }

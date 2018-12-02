@@ -39,6 +39,7 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 | `bfor`     | Creates `@for` directive.                                 |
 | `bif`      | Creates `@if` directive.                                  |
 | `bife`     | Creates `@if` `@else` directive.                          |
+| `bgja`     | Creates `@await Http.GetJsonAsync<string>("api/")`.       |
 
 ## Blazor Event Snippets
 
