@@ -54,5 +54,21 @@
                   "{",
                   "    $1",    
                   "}"]
+    },
+    "OnChangeAsync" :{
+        "prefix": "bonch",
+        "description": "Creates an OnChange async event.",
+        "body": ["async Task ${1:OnChangeAsync}(UIChangeEventArgs event)",
+                  "{",
+                  "    $2",    
+                  "}"]
+    },
+    "OnChange" :{
+        "prefix": "bonchs",
+        "description": "Creates an OnChange event.",
+        "body": ["void ${1:OnChange}(UIChangeEventArgs event)",
+                  "{",
+                  "    $2",    
+                  "}"]
     }
 }

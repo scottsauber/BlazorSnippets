@@ -1,5 +1,7 @@
 # Change Log
 
+0.4.4 - 12/11/2018 - Added support for an OnChange event via `bonch`.
+
 0.4.3 - 12/1/2018 - Added support for `@await Http.GetJsonAsync<string>("api/")` via `bgja`.
 
 0.4.2 - 11/17/2018 - Added support for [CascadingParameter] via `bcpara`.

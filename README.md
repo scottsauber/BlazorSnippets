@@ -43,15 +43,17 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 
 ## Blazor Event Snippets
 
-| Snippet | Purpose                                                |
-| ------- | ------------------------------------------------------ |
-| `boi`   | Create an `OnInitAsync` event.                         |
-| `bois`  | Create an `OnInit` event (s for synchronous).          |
-| `boar`  | Create an `OnAfterRenderAsync` event.                  |
-| `boars` | Create an `OnAfterRender` event (s for synchronous)    |
-| `bops`  | Create an `OnParametersSetAsync` event.                |
-| `bopss` | Create an `OnParametersSet` event (s for synchronous). |
-| `bsr`   | Create a `ShouldRender` event.                         |
+| Snippet  | Purpose                                                |
+| -------- | ------------------------------------------------------ |
+| `boi`    | Create an `OnInitAsync` event.                         |
+| `bois`   | Create an `OnInit` event (s for synchronous).          |
+| `boar`   | Create an `OnAfterRenderAsync` event.                  |
+| `boars`  | Create an `OnAfterRender` event (s for synchronous)    |
+| `bops`   | Create an `OnParametersSetAsync` event.                |
+| `bopss`  | Create an `OnParametersSet` event (s for synchronous). |
+| `bsr`    | Create a `ShouldRender` event.                         |
+| `bonch`  | Create an `OnChangeAsync` event.                       |
+| `bonchs` | Create an `OnChange` event (s for synchronous).        |
 
 ## Usage
 
