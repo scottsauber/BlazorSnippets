@@ -1,5 +1,7 @@
 # Change Log
 
+1.0.0 - 8/11/2019 - Updated snippets to latest Blazor standards.
+
 0.4.4 - 12/11/2018 - Added support for an OnChange event via `bonch`.
 
 0.4.3 - 12/1/2018 - Added support for `@await Http.GetJsonAsync<string>("api/")` via `bgja`.

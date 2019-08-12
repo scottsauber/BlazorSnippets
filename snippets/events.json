@@ -58,17 +58,17 @@
     "OnChangeAsync" :{
         "prefix": "bonch",
         "description": "Creates an OnChange async event.",
-        "body": ["async Task ${1:OnChangeAsync}(UIChangeEventArgs event)",
+        "body": ["${1:public} async Task ${2:OnChangeAsync}(UIChangeEventArgs event)",
                   "{",
-                  "    $2",    
+                  "    $3",    
                   "}"]
     },
     "OnChange" :{
         "prefix": "bonchs",
         "description": "Creates an OnChange event.",
-        "body": ["void ${1:OnChange}(UIChangeEventArgs event)",
+        "body": ["${1:public} void ${2:OnChange}(UIChangeEventArgs event)",
                   "{",
-                  "    $2",    
+                  "    $3",    
                   "}"]
     }
 }

@@ -1,0 +1,7 @@
+{
+    "Property" :{
+        "prefix": "bprop",
+        "description": "Create a property.",
+        "body": ["${1:public} ${2:string} ${3:Name} { get; set; }"]
+    }
+}

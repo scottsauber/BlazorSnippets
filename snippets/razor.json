@@ -6,23 +6,27 @@
                  "    $1",
                  "}"]
     },
+    "code" :{
+        "prefix": "bcode",
+        "description": "Create a code block.",
+        "body": ["@code {",
+                 "    $1",
+                 "}"]
+    },
     "parameter" :{
         "prefix": "bpara",
         "description": "Create a Parameter.",
-        "body": ["[Parameter] ${1:string} ${2:Name} { get; set; }"]
+        "body": ["[Parameter]",
+         "${1:public} ${2:string} ${3:Name} { get; set; }"]
     },
     "cascadingparameter" :{
         "prefix": "bcpara",
         "description": "Create a Cascading Parameter.",
-        "body": ["[CascadingParameter] ${1:string} ${2:Name} { get; set; }"]
-    },
-    "page" :{
-        "prefix": "bpg",
-        "description": "Create a @page directive.",
-        "body": ["@page"]
+        "body": ["[CascadingParameter]",
+        "${1:public} ${2:string} ${3:Name} { get; set; }"]
     },
     "PageWithRoute" :{
-        "prefix": "bpgr",
+        "prefix": "bpg",
         "description": "Create a @page with the route directive.",
         "body": ["@page \"/$1\" "]
     },

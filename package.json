@@ -3,7 +3,7 @@
   "displayName": "Blazor Snippets",
   "description": "Blazor (and Razor) Snippets for VS Code",
   "icon": "images/logo.png",
-  "version": "0.4.7",
+  "version": "1.0.0",
   "publisher": "ScottSauber",
   "engines": {
     "vscode": "^1.28.0"
@@ -24,11 +24,15 @@
   "contributes": {
     "snippets": [
       {
+        "language": "csharp",
+        "path": "./snippets/csharp.json"
+      },
+      {
         "language": "aspnetcorerazor",
         "path": "./snippets/razor.json"
       },
       {
-        "language": "aspnetcorerazor",
+        "language": "csharp",
         "path": "./snippets/events.json"
       },
       {

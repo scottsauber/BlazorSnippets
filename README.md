@@ -4,56 +4,60 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 
 #### Note: All Snippets start with a "b" prefix for discoverability purposes.
 
-## Features
+## Demo
 
-- Using `bc` to create a blank Blazor Component, `bpara` to create a parameter, `boi` to create OnInitAsync, and `binjhttp` to inject an HttpClient.
+This demo combines multiple snippets together:
 
-  ![Snippets used together](images/Demo.gif)
+1. It uses `bc` to create a blank Blazor Component.
+2. `bprop` to create a public property.
+3. `bpara` to create a parameter.
+4. `binjhttp` to inject an HttpClient.
+5. `boi` to create OnInitAsync.
+6. `bgja` to make the AJAX call.
 
-- Using `bchttp` to scaffold out a Blazor Component with an HttpClient call.
-
-  ![Snippets used together](images/DemoBCHttp.gif)
+![Snippets used together](images/Demo1.gif)
 
 ## Blazor Component Snippets
 
-| Snippet   | Purpose                                                   |
-| --------- | --------------------------------------------------------- |
-| `bc`      | Create a blank Blazor Component.                          |
-| `bchttp`  | Create a Blazor Component with an HTTP call.              |
-| `bcchild` | Create a Blazor Child Component that accepts a parameter. |
-| `bccv`    | Create a Blazor <CascadingValue> Component                |
+| Snippet   | Purpose                                                    |
+| --------- | ---------------------------------------------------------- |
+| `bc`      | Creates a blank Blazor Component.                          |
+| `bchttp`  | Creates a Blazor Component with an HTTP call.              |
+| `bcchild` | Creates a Blazor Child Component that accepts a parameter. |
+| `bccv`    | Creates a Blazor <CascadingValue> Component                |
 
 ## Blazor Razor Snippets
 
-| Snippet    | Purpose                                                   |
-| ---------- | --------------------------------------------------------- |
-| `bfunc`    | Create a `@functions` block.                              |
-| `bpara`    | Creates `[Parameter] string Name { get; set; }`.          |
-| `bcpara`   | Creates `[CascadingParameter] string Name { get; set; }`. |
-| `bpg`      | Creates `@page` directive.                                |
-| `bpgr`     | Creates `@page "/"` with a route.                         |
-| `binj`     | Creates `@inject` directive.                              |
-| `binjhttp` | Creates `@inject HttpClient Http`.                        |
-| `binh`     | Creates `@inherits` directive.                            |
-| `bforeach` | Creates `@foreach` directive.                             |
-| `bfor`     | Creates `@for` directive.                                 |
-| `bif`      | Creates `@if` directive.                                  |
-| `bife`     | Creates `@if` `@else` directive.                          |
-| `bgja`     | Creates `@await Http.GetJsonAsync<string>("api/")`.       |
+| Snippet    | Purpose                                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `bfunc`    | Creates a `@functions` block.                                                                                            |
+| `bcode`    | Creates a `@code` block.                                                                                                 |
+| `bpara`    | Creates a property with a Parameter attribute. Example: `[Parameter] public string Name { get; set; }`                   |
+| `bcpara`   | Creates a property with a CascadingParameter attribute. Example: `[CascadingParameter] public string Name { get; set; }` |
+| `bpg`      | Creates `@page "/"` with a route.                                                                                        |
+| `binj`     | Creates `@inject` directive.                                                                                             |
+| `binjhttp` | Creates `@inject HttpClient Http`.                                                                                       |
+| `binh`     | Creates `@inherits` directive.                                                                                           |
+| `bforeach` | Creates `@foreach` directive.                                                                                            |
+| `bfor`     | Creates `@for` directive.                                                                                                |
+| `bif`      | Creates `@if` directive.                                                                                                 |
+| `bife`     | Creates `@if` `@else` directive.                                                                                         |
+| `bgja`     | Creates `@await Http.GetJsonAsync<string>("api/")`.                                                                      |
+| `bprop`    | Creates a property. Example: `public string Name { get; set; }`                                                          |
 
 ## Blazor Event Snippets
 
-| Snippet  | Purpose                                                |
-| -------- | ------------------------------------------------------ |
-| `boi`    | Create an `OnInitAsync` event.                         |
-| `bois`   | Create an `OnInit` event (s for synchronous).          |
-| `boar`   | Create an `OnAfterRenderAsync` event.                  |
-| `boars`  | Create an `OnAfterRender` event (s for synchronous)    |
-| `bops`   | Create an `OnParametersSetAsync` event.                |
-| `bopss`  | Create an `OnParametersSet` event (s for synchronous). |
-| `bsr`    | Create a `ShouldRender` event.                         |
-| `bonch`  | Create an `OnChangeAsync` event.                       |
-| `bonchs` | Create an `OnChange` event (s for synchronous).        |
+| Snippet  | Purpose                                                 |
+| -------- | ------------------------------------------------------- |
+| `boi`    | Creates an `OnInitAsync` event.                         |
+| `bois`   | Creates an `OnInit` event (s for synchronous).          |
+| `boar`   | Creates an `OnAfterRenderAsync` event.                  |
+| `boars`  | Creates an `OnAfterRender` event (s for synchronous)    |
+| `bops`   | Creates an `OnParametersSetAsync` event.                |
+| `bopss`  | Creates an `OnParametersSet` event (s for synchronous). |
+| `bsr`    | Creates a `ShouldRender` event.                         |
+| `bonch`  | Creates an `OnChangeAsync` event.                       |
+| `bonchs` | Creates an `OnChange` event (s for synchronous).        |
 
 ## Usage
 
