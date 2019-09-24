@@ -1,5 +1,7 @@
 # Change Log
 
+1.1.0 - 9/23/2019 - Updated for .NET core 3.0 release. Added form snippets.
+
 1.0.0 - 8/11/2019 - Updated snippets to latest Blazor standards.
 
 0.4.4 - 12/11/2018 - Added support for an OnChange event via `bonch`.

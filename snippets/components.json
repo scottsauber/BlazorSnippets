@@ -41,5 +41,61 @@
                  "    <${2:ChildComponent} $3/>",
                  "</CascadingValue>"
         ]
+    },
+    "BlazorEditForm" :{
+        "prefix": "beditform",
+        "description": "Create a Blazor EditForm component.",
+        "body": ["<EditForm Model=\"@${1:model}\" OnValidSubmit=\"@${2:HandleValidSubmit}\">",
+                 "    ${3:<DataAnnotationsValidator />}",
+                 "    ${4:<ValidationSummary />}",
+                 "    ",
+                 "    ${5:<button type=\"submit\">${6:Submit}</button>}",
+                 "</EditForm>"
+        ]
+    },
+    "BlazorDataAnnotationsValidator" :{
+        "prefix": "bdavalidator",
+        "description": "Create a Blazor Data Annotations Validator component.",
+        "body": ["<DataAnnotationsValidator />"
+        ]
+    },
+    "BlazorInputText" :{
+        "prefix": "bitext",
+        "description": "Create a Blazor Input Text component.",
+        "body": ["<InputText id=\"${1:firstName}\" @bind-value=\"${2:model.FirstName}\" />"
+        ]
+    },
+    "BlazorInputTextArea" :{
+        "prefix": "bitextarea",
+        "description": "Create a Blazor Input Text Area component.",
+        "body": ["<InputTextArea id=\"${1:comments}\" @bind-value=\"${2:model.Comments}\" />"
+        ]
+    },
+    "BlazorInputNumber" :{
+        "prefix": "binumber",
+        "description": "Create a Blazor Input Number component.",
+        "body": ["<InputNumber id=\"${1:count}\" @bind-value=\"${2:model.Count}\" />"
+        ]
+    },
+    "BlazorInputCheckbox" :{
+        "prefix": "bicheck",
+        "description": "Create a Blazor Input Checkbox component.",
+        "body": ["<InputCheckbox id=\"${1:isAllowed}\" @bind-value=\"${2:model.IsAllowed}\" />"
+        ]
+    },
+    "BlazorInputDate" :{
+        "prefix": "bidate",
+        "description": "Create a Blazor Input Date component.",
+        "body": ["<InputDate id=\"${1:birthDate}\" @bind-value=\"${2:model.BirthDate}\" />"
+        ]
+    },
+    "BlazorInputSelect" :{
+        "prefix": "biselect",
+        "description": "Create a Blazor Input Select component.",
+        "body": ["<InputSelect id=\"${1:options}\" @bind-Value=\"${2:model.SelectedOption}\">",
+            "    ${3:<option value=\"\" disabled>Select...</option>}",
+            "    ${4:<option value=\"Option1\">Option 1</option>}",
+            "</InputSelect>"
+        ]
     }
 }

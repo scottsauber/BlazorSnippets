@@ -1,16 +1,16 @@
 {
     "OnInitAsync" :{
         "prefix": "boi",
-        "description": "Create the OnInitAsync event.",
-        "body": ["protected override async Task OnInitAsync()",
+        "description": "Create the OnInitializedAsync event.",
+        "body": ["protected override async Task OnInitializedAsync()",
                   "{",
                   "    $1",    
                   "}"]
     },
     "OnInit" :{
         "prefix": "bois",
-        "description": "Create the OnInit event.",
-        "body": ["protected override void OnInit()",
+        "description": "Create the OnInitialized event.",
+        "body": ["protected override void OnInitialized()",
                   "{",
                   "    $1",    
                   "}"]
@@ -18,7 +18,7 @@
     "OnAfterRenderAsync" :{
         "prefix": "boar",
         "description": "Create the OnAfterRenderAsync event.",
-        "body": ["protected override async Task OnAfterRenderAsync()",
+        "body": ["protected override async Task OnAfterRenderAsync(bool firstRender)",
                   "{",
                   "    $1",    
                   "}"]
@@ -26,7 +26,7 @@
     "OnAfterRender" :{
         "prefix": "boars",
         "description": "Create the OnAfterRender event.",
-        "body": ["protected override void OnAfterRender()",
+        "body": ["protected override void OnAfterRender(bool firstRender)",
                   "{",
                   "    $1",    
                   "}"]
