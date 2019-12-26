@@ -24,15 +24,15 @@ This demo combines multiple snippets together:
 | `bc`           | Creates a blank Blazor Component.                          |
 | `bchttp`       | Creates a Blazor Component with an HTTP call.              |
 | `bcchild`      | Creates a Blazor Child Component that accepts a parameter. |
-| `bccv`         | Creates a Blazor <CascadingValue> Component                |
-| `beditform`    | Creates a <EditForm> Component                             |
-| `bdavalidator` | Creates a <DataAnnotationsValidator> Component             |
-| `bitext`       | Creates a <InputText> Component                            |
-| `bitextarea`   | Creates a <InputTextArea> Component                        |
-| `bicheck`      | Creates a <InputCheckbox> Component                        |
-| `binumber`     | Creates a <InputNumber> Component                          |
-| `bidate`       | Creates a <InputDate> Component                            |
-| `biselect`     | Creates a <InputSelect> Component                          |
+| `bccv`         | Creates a Blazor `<CascadingValue>` Component              |
+| `beditform`    | Creates a `<EditForm>` Component                           |
+| `bdavalidator` | Creates a `<DataAnnotationsValidator>` Component           |
+| `bitext`       | Creates a `<InputText>` Component                          |
+| `bitextarea`   | Creates a `<InputTextArea>` Component                      |
+| `bicheck`      | Creates a `<InputCheckbox>` Component                      |
+| `binumber`     | Creates a `<InputNumber>` Component                        |
+| `bidate`       | Creates a `<InputDate>` Component                          |
+| `biselect`     | Creates a `<InputSelect>` Component                        |
 
 ## Blazor Razor Snippets
 
