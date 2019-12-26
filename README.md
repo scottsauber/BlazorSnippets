@@ -34,6 +34,20 @@ This demo combines multiple snippets together:
 | `bidate`       | Creates a `<InputDate>` Component                          |
 | `biselect`     | Creates a `<InputSelect>` Component                        |
 
+## Blazor Event Snippets
+
+| Snippet  | Purpose                                                 |
+| -------- | ------------------------------------------------------- |
+| `boi`    | Creates an `OnInitializedAsync` event.                  |
+| `bois`   | Creates an `OnInitialized` event (s for synchronous).   |
+| `boar`   | Creates an `OnAfterRenderAsync` event.                  |
+| `boars`  | Creates an `OnAfterRender` event (s for synchronous)    |
+| `bops`   | Creates an `OnParametersSetAsync` event.                |
+| `bopss`  | Creates an `OnParametersSet` event (s for synchronous). |
+| `bsr`    | Creates a `ShouldRender` event.                         |
+| `bonch`  | Creates an `OnChangeAsync` event.                       |
+| `bonchs` | Creates an `OnChange` event (s for synchronous).        |
+
 ## Blazor Razor Snippets
 
 | Snippet    | Purpose                                                                                                                  |
@@ -52,20 +66,6 @@ This demo combines multiple snippets together:
 | `bife`     | Creates `@if` `@else` directive.                                                                                         |
 | `bgja`     | Creates `@await Http.GetJsonAsync<string>("api/")`.                                                                      |
 | `bprop`    | Creates a property. Example: `public string Name { get; set; }`                                                          |
-
-## Blazor Event Snippets
-
-| Snippet  | Purpose                                                 |
-| -------- | ------------------------------------------------------- |
-| `boi`    | Creates an `OnInitializedAsync` event.                  |
-| `bois`   | Creates an `OnInitialized` event (s for synchronous).   |
-| `boar`   | Creates an `OnAfterRenderAsync` event.                  |
-| `boars`  | Creates an `OnAfterRender` event (s for synchronous)    |
-| `bops`   | Creates an `OnParametersSetAsync` event.                |
-| `bopss`  | Creates an `OnParametersSet` event (s for synchronous). |
-| `bsr`    | Creates a `ShouldRender` event.                         |
-| `bonch`  | Creates an `OnChangeAsync` event.                       |
-| `bonchs` | Creates an `OnChange` event (s for synchronous).        |
 
 ## Usage
 
