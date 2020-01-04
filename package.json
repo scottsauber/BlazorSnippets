@@ -3,7 +3,7 @@
   "displayName": "Blazor Snippets",
   "description": "Blazor (and Razor) Snippets for VS Code",
   "icon": "images/logo.png",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "ScottSauber",
   "engines": {
     "vscode": "^1.28.0"
@@ -15,7 +15,12 @@
     "ASP.NET Core",
     "C#",
     "Razor",
-    "Blazor"
+    "Blazor",
+    "Snippets",
+    "Snippet",
+    ".NET",
+    ".NET Core",
+    "CSharp"
   ],
   "repository": {
     "type": "git",
