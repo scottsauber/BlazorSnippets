@@ -40,6 +40,11 @@
         "description": "Create an @inject directive with HttpClient.",
         "body": ["@inject HttpClient Http"]
     },
+    "injectConfig" :{
+        "prefix": "binjconf",
+        "description": "Create an @inject directive with IConfiguration.",
+        "body": ["@inject IConfiguration Configuration"]
+    },
     "inherits" :{
         "prefix": "binh",
         "description": "Create an @inherits directive.",
@@ -87,7 +92,7 @@
     },
     "BlazorGetJsonAsync" :{
         "prefix": "bgja",
-        "description": "GetJsonAsync",
-        "body": ["await ${1:Http}.GetJsonAsync<${2:string}>(\"${3:api/}\");"]
+        "description": "GetFromJsonAsync",
+        "body": ["await ${1:Http}.GetFromJsonAsync<${2:string}>(\"${3:api/}\");"]
     }
 }

@@ -9,11 +9,10 @@ Blazor Snippets for VS Code provides common snippets for writing Blazor apps in 
 This demo combines multiple snippets together:
 
 1. It uses `bc` to create a blank Blazor Component.
-2. `bprop` to create a public property.
-3. `bpara` to create a parameter.
-4. `binjhttp` to inject an HttpClient.
-5. `boi` to create OnInitAsync.
-6. `bgja` to make the AJAX call.
+1. `bpara` to create a parameter.
+1. `binjhttp` to inject an HttpClient.
+1. `boi` to create OnInitializedAsync.
+1. `bgja` to make the AJAX call.
 
 ![Snippets used together](images/Demo1.gif)
 
@@ -59,12 +58,13 @@ This demo combines multiple snippets together:
 | `bpg`      | Creates `@page "/"` with a route.                                                                                        |
 | `binj`     | Creates `@inject` directive.                                                                                             |
 | `binjhttp` | Creates `@inject HttpClient Http`.                                                                                       |
+| `binjconf` | Creates `@inject IConfiguration Configuration`.                                                                          |
 | `binh`     | Creates `@inherits` directive.                                                                                           |
 | `bforeach` | Creates `@foreach` directive.                                                                                            |
 | `bfor`     | Creates `@for` directive.                                                                                                |
 | `bif`      | Creates `@if` directive.                                                                                                 |
 | `bife`     | Creates `@if` `@else` directive.                                                                                         |
-| `bgja`     | Creates `@await Http.GetJsonAsync<string>("api/")`.                                                                      |
+| `bgja`     | Creates `@await Http.GetFromJsonAsync<string>("api/")`.                                                                  |
 | `bprop`    | Creates a property. Example: `public string Name { get; set; }`                                                          |
 
 ## Usage
