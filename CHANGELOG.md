@@ -1,5 +1,7 @@
 # Change Log
 
+1.4.0 - 2020-12-23 - Updated `binj` keyword to expand to the type and name of what you're injecting
+
 1.3.0 - 2020-03-30 - Updated for Blazor WASM 3.2.0 Preview 3. Updated to use `GetFromJsonAsync`. Updated to `OnInitializedAsync` for `bc`. Added `binjconf`. Update demo gif.
 
 1.1.0 - 2019-09-23 - Updated for .NET core 3.0 release. Added form snippets.

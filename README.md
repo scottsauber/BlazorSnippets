@@ -56,7 +56,7 @@ This demo combines multiple snippets together:
 | `bpara`    | Creates a property with a Parameter attribute. Example: `[Parameter] public string Name { get; set; }`                   |
 | `bcpara`   | Creates a property with a CascadingParameter attribute. Example: `[CascadingParameter] public string Name { get; set; }` |
 | `bpg`      | Creates `@page "/"` with a route.                                                                                        |
-| `binj`     | Creates `@inject` directive.                                                                                             |
+| `binj`     | Creates `@inject Type Name` directive.                                                                                   |
 | `binjhttp` | Creates `@inject HttpClient Http`.                                                                                       |
 | `binjconf` | Creates `@inject IConfiguration Configuration`.                                                                          |
 | `binh`     | Creates `@inherits` directive.                                                                                           |
