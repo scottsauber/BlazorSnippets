@@ -13,18 +13,6 @@
                  "    $1",
                  "}"]
     },
-    "parameter" :{
-        "prefix": "bpara",
-        "description": "Create a Parameter.",
-        "body": ["[Parameter]",
-         "${1:public} ${2:string} ${3:Name} { get; set; }"]
-    },
-    "cascadingparameter" :{
-        "prefix": "bcpara",
-        "description": "Create a Cascading Parameter.",
-        "body": ["[CascadingParameter]",
-        "${1:public} ${2:string} ${3:Name} { get; set; }"]
-    },
     "PageWithRoute" :{
         "prefix": "bpg",
         "description": "Create a @page with the route directive.",
@@ -89,10 +77,5 @@
                  "    $3",
                  "}"
         ]
-    },
-    "BlazorGetJsonAsync" :{
-        "prefix": "bgja",
-        "description": "GetFromJsonAsync",
-        "body": ["await ${1:Http}.GetFromJsonAsync<${2:string}>(\"${3:api/}\");"]
     }
 }
