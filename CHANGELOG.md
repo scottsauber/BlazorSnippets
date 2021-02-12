@@ -1,5 +1,7 @@
 # Change Log
 
+1.5.1 - 2021-02-11 - Move C# snippets out of Razor
+
 1.5.0 - 2021-02-11 - Fixed issue with `binj` and react to changes to the C# extension.
 
 1.4.0 - 2020-12-23 - Updated `binj` keyword to expand to the type and name of what you're injecting.
