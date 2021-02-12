@@ -33,7 +33,7 @@
     "inject" :{
         "prefix": "binj",
         "description": "Create an @inject directive.",
-        "body": ["@inject ${1:Type} {2:Name}"]
+        "body": ["@inject ${1:Type} ${2:Name}"]
     },
     "injectHttp" :{
         "prefix": "binjhttp",
