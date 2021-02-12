@@ -33,24 +33,20 @@
         "path": "./snippets/csharp.json"
       },
       {
-        "language": "aspnetcorerazor",
-        "path": "./snippets/razor.json"
-      },
-      {
         "language": "csharp",
         "path": "./snippets/events.json"
       },
       {
         "language": "aspnetcorerazor",
-        "path": "./snippets/components.json"
+        "path": "./snippets/razor.json"
       },
       {
         "language": "razor",
         "path": "./snippets/razor.json"
       },
       {
-        "language": "razor",
-        "path": "./snippets/events.json"
+        "language": "aspnetcorerazor",
+        "path": "./snippets/components.json"
       },
       {
         "language": "razor",
