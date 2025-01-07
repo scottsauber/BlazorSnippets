@@ -78,3 +78,4 @@ To install - go here and click Install: https://marketplace.visualstudio.com/ite
 ### For more information
 
 - [GitHub Repository](https://github.com/scottsauber/BlazorSnippets)
+update to readme
