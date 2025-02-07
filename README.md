@@ -12,7 +12,7 @@ This demo combines multiple snippets together:
 1. `bpara` to create a parameter.
 1. `binjhttp` to inject an HttpClient.
 1. `boi` to create OnInitializedAsync.
-1. `bgja` to make the AJAX call.
+1. `bgja` to make the AJAX call.asdfasdfafasdfafdsdsf
 
 ![Snippets used together](images/Demo1.gif)
 
