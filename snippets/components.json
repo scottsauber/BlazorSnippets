@@ -62,31 +62,31 @@
     "BlazorInputText" :{
         "prefix": "bitext",
         "description": "Create a Blazor Input Text component.",
-        "body": ["<InputText id=\"${1:firstName}\" @bind-value=\"${2:model.FirstName}\" />"
+        "body": ["<InputText id=\"${1:firstName}\" @bind-Value=\"${2:model.FirstName}\" />"
         ]
     },
     "BlazorInputTextArea" :{
         "prefix": "bitextarea",
         "description": "Create a Blazor Input Text Area component.",
-        "body": ["<InputTextArea id=\"${1:comments}\" @bind-value=\"${2:model.Comments}\" />"
+        "body": ["<InputTextArea id=\"${1:comments}\" @bind-Value=\"${2:model.Comments}\" />"
         ]
     },
     "BlazorInputNumber" :{
         "prefix": "binumber",
         "description": "Create a Blazor Input Number component.",
-        "body": ["<InputNumber id=\"${1:count}\" @bind-value=\"${2:model.Count}\" />"
+        "body": ["<InputNumber id=\"${1:count}\" @bind-Value=\"${2:model.Count}\" />"
         ]
     },
     "BlazorInputCheckbox" :{
         "prefix": "bicheck",
         "description": "Create a Blazor Input Checkbox component.",
-        "body": ["<InputCheckbox id=\"${1:isAllowed}\" @bind-value=\"${2:model.IsAllowed}\" />"
+        "body": ["<InputCheckbox id=\"${1:isAllowed}\" @bind-Value=\"${2:model.IsAllowed}\" />"
         ]
     },
     "BlazorInputDate" :{
         "prefix": "bidate",
         "description": "Create a Blazor Input Date component.",
-        "body": ["<InputDate id=\"${1:birthDate}\" @bind-value=\"${2:model.BirthDate}\" />"
+        "body": ["<InputDate id=\"${1:birthDate}\" @bind-Value=\"${2:model.BirthDate}\" />"
         ]
     },
     "BlazorInputSelect" :{
