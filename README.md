@@ -1,6 +1,7 @@
 # Blazor Snippets for VS Code
 
 Blazor Snippets for VS Code provides common snippets for writing Blazor apps in VS Code and lets you spend less time writing boilerplate and more time writing your app.
+---changes
 
 > ### Note: All Snippets start with a "b" prefix for discoverability purposes.
 
